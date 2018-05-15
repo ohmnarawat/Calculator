@@ -26,7 +26,7 @@ public class MainActivityTest {
 
     @Test
     public void plus_1_and_1_should_result_2() {
-        Screengrab.screenshot("before_calculate");
+        // Screengrab.screenshot("before_calculate");
 
         /*onView(withId(R.id.edt_first))
                 .perform(replaceText("1"), closeSoftKeyboard());*/
@@ -43,7 +43,7 @@ public class MainActivityTest {
         onView(withId(R.id.txv_result))
                 .check(matches(withText("2")));
 
-        Screengrab.screenshot("after_calculate");
+        // Screengrab.screenshot("after_calculate");
     }
 
 }
